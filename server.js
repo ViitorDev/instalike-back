@@ -1,33 +1,13 @@
 import express from "express";
 import routes from "./src/routes/postsRoutes.js";
 
-
-// Esta linha importa o módulo Express, que é o framework web utilizado para criar a aplicação.
-// O módulo conectarAoBanco contém a função que estabelece a conexão com o banco de dados.
-
-
 const app = express();
 
-// Cria uma instância do Express, que será o núcleo da nossa aplicação.
-
-routes(app)
+routes(app);
 
 app.listen(3000, () => {
-    console.log("servidor escutando...");
+    console.log("Servidor escutando...");
 });
-
-// Inicia o servidor Express na porta 3000 e exibe uma mensagem no console
-// indicando que o servidor está ouvindo por requisições.
-
-
-
-
-
-
-
-
-
-
 
 
 
