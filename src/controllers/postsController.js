@@ -1,5 +1,5 @@
 
-import { getTodosPosts } from "../models/postsModels.js";
+import { getTodosPosts } from "../models/postsModel.js";
 
 export async function listarPosts (req, res)
 {
